@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: ["https://study-notion-jet-iota.vercel.app","http://localhost:3000","https://studynotionfrontend-eight.vercel.app","https://studynotion-seven-tau.vercel.app"],
+		origin: ["https://study-notion-jet-iota.vercel.app","http://localhost:3000","https://studynotionfrontend-eight.vercel.app","https://studynotion-seven-tau.vercel.app","https://study-notion-frontend-eight-pi.vercel.app"],
 		credentials: true,
 	})
 );
